@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Book Listing</title>
+<meta charset="UTF-6">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="text/javascript">
+</head>
+
+<body>
+<center>
+<div class="w3-container">
+<h1>Welcome to Library Management</h1>
+
+<p>There are various books present in a bookshelf. Its details are as follow:</p>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+</style>
+
+<table>
+<tr>
+	<th>Book Name</th>
+	<th>Author Name</th>
+	<th>Image</th>
+</tr>
+
+<tr>
+	<td><a href="https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird">To kill a Mockingbird</a></td>
+	<td>Harper Lee</td>
+	<td><img src="Book1.jpg" alt="Book 1" width="80" height="80"></td>
+</tr>
+
+<tr>
+	<td><a href="https://en.wikipedia.org/wiki/Exam_Warriors">The Braille edition of the book Exam Warriors</a></td>
+	<td>Narendra Modi</td>
+	<td><img src="Book2.jpg" alt="Book 2" width="80" height="80"></td>
+</tr>
+
+<tr>
+	<td><a href="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter</a></td>
+	<td>J.K Rowling</td>
+	<td><img src="Book3.jpeg" alt="Book 3" width="80" height="80"></td>
+</tr>
+
+<tr>
+	<td><a href="https://www.google.co.in/books/edition/Midnight_Freeway/t5hLEAAAQBAJ?hl=en&gbpv=1&printsec=frontcover">Midnight Freeway</a></td>
+	<td>Vivaan Shah</td>
+	<td><img src="Book4.jpg" alt="Book 4" width="80" height="80"></td>
+</tr>
+
+</div>
+</center>
+</body>
+</html>
